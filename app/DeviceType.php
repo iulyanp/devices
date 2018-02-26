@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class DeviceType extends Model
 {
     public $fillable = ['name'];
+    public $timestamps = false;
 
     public function devices()
     {
